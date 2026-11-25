@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pct_prompt">%1$d%% מתוך %2$d</string>
+    <plurals name="mm_desc_ops_count">
+        <item quantity="one">פעולה אחת, %2$ds</item>
+        <item quantity="two">שתי פעולות, %2$ds כל אחת</item>
+        <item quantity="other">%1$d פעולות, %2$ds כל אחת</item>
+    </plurals>
+    <plurals name="pct_desc_seconds_count">
+        <item quantity="one">שנייה אחת לשאלה</item>
+        <item quantity="two">שתי שניות לשאלה</item>
+        <item quantity="other">%1$d שניות לשאלה</item>
+    </plurals>
+    <plurals name="nm_starting_digits_count">
+        <item quantity="one">מספר התחלה: ספרה אחת</item>
+        <item quantity="two">מספר התחלה: שתי ספרות</item>
+        <item quantity="other">מספר התחלה: %1$d ספרות</item>
+    </plurals>
+    <plurals name="nm_level_digits_count">
+        <item quantity="one">שלב: ספרה אחת</item>
+        <item quantity="two">שלב: שתי ספרות</item>
+        <item quantity="other">שלב: %1$d ספרות</item>
+    </plurals>
+    <plurals name="nm_digits_count">
+        <item quantity="one">ספרה אחת</item>
+        <item quantity="two">שתי ספרות</item>
+        <item quantity="other">%1$d ספרות</item>
+    </plurals>
+</resources>

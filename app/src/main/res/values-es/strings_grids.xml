@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wh_grid_label">cuadrícula %1$d×%1$d</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="one">%1$d×%1$d, %2$d palabra, solo hacia la derecha y abajo</item>
+        <item quantity="many">%1$d×%1$d, %2$d palabras, solo hacia la derecha y abajo</item>
+        <item quantity="other">%1$d×%1$d, %2$d palabras, solo hacia la derecha y abajo</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="one">%1$d×%1$d, %2$d palabra, diagonales incluidas</item>
+        <item quantity="many">%1$d×%1$d, %2$d palabras, diagonales incluidas</item>
+        <item quantity="other">%1$d×%1$d, %2$d palabras, diagonales incluidas</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="one">%1$d×%1$d, %2$d palabra, pueden ir hacia atrás</item>
+        <item quantity="many">%1$d×%1$d, %2$d palabras, pueden ir hacia atrás</item>
+        <item quantity="other">%1$d×%1$d, %2$d palabras, pueden ir hacia atrás</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="one">%1$d palabra</item>
+        <item quantity="many">%1$d palabras</item>
+        <item quantity="other">%1$d palabras</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="one">%1$d pista usada</item>
+        <item quantity="many">%1$d pistas usadas</item>
+        <item quantity="other">%1$d pistas usadas</item>
+    </plurals>
+    <plurals name="lo_moves_label">
+        <item quantity="one">movimiento</item>
+        <item quantity="many">movimientos</item>
+        <item quantity="other">movimientos</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="one">+%1$d s de penalización (%2$d fallo)</item>
+        <item quantity="many">+%1$d s de penalización (%2$d fallos)</item>
+        <item quantity="other">+%1$d s de penalización (%2$d fallos)</item>
+    </plurals>
+</resources>

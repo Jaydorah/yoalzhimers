@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="stm_memorize_items_count">
+        <item quantity="one">Bu nesneyi ezberle</item>
+        <item quantity="other">Bu %1$d nesneyi ezberle</item>
+    </plurals>
+    <plurals name="stm_tap_exactly_count">
+        <item quantity="one">Tam bir kez dokun</item>
+        <item quantity="other">Tam %1$d kez dokun</item>
+    </plurals>
+    <plurals name="stm_history_items">
+        <item quantity="one">%1$s • %2$d NESNE</item>
+        <item quantity="other">%1$s • %2$d NESNE</item>
+    </plurals>
+    <plurals name="stm_history_task_count">
+        <item quantity="one">%1$d GÖREV</item>
+        <item quantity="other">%1$d GÖREV</item>
+    </plurals>
+    <string name="stm_fail_too_soon">Çok aceleci! Renk çıkmadan dokundun.</string>
+</resources>

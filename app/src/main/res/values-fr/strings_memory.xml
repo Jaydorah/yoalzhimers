@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <plurals name="chimp_numbers_count">
+        <item quantity="one">%d chiffre</item>
+        <item quantity="many">%d chiffres</item>
+        <item quantity="other">%d chiffres</item>
+    </plurals>
+    <plurals name="chimp_cleared_count">
+        <item quantity="one">%d réussie</item>
+        <item quantity="many">%d réussies</item>
+        <item quantity="other">%d réussies</item>
+    </plurals>
+    <plurals name="chimp_next_numbers_count">
+        <item quantity="one">Suivant : %d chiffre</item>
+        <item quantity="many">Suivant : %d chiffres</item>
+        <item quantity="other">Suivant : %d chiffres</item>
+    </plurals>
+    <plurals tools:ignore="ImpliedQuantity" name="chimp_rounds_cleared_label">
+        <item quantity="one">manche réussie</item>
+        <item quantity="many">manches réussies</item>
+        <item quantity="other">manches réussies</item>
+    </plurals>
+    <plurals name="cc_pads_count">
+        <item quantity="one">%d plateau</item>
+        <item quantity="many">%d plateaux</item>
+        <item quantity="other">%d plateaux</item>
+    </plurals>
+    <plurals name="cc_cleared_count">
+        <item quantity="one">%d réussie</item>
+        <item quantity="many">%d réussies</item>
+        <item quantity="other">%d réussies</item>
+    </plurals>
+    <plurals tools:ignore="ImpliedQuantity" name="cc_rounds_cleared_label">
+        <item quantity="one">manche réussie</item>
+        <item quantity="many">manches réussies</item>
+        <item quantity="other">manches réussies</item>
+    </plurals>
+    <plurals name="ks_decoys_count">
+        <item quantity="one">+%d leurre</item>
+        <item quantity="many">+%d leurres</item>
+        <item quantity="other">+%d leurres</item>
+    </plurals>
+    <plurals name="ks_wrong_count">
+        <item quantity="one">%d erreur</item>
+        <item quantity="many">%d erreurs</item>
+        <item quantity="other">%d erreurs</item>
+    </plurals>
+    <plurals name="ks_missed_count">
+        <item quantity="one">%d manqué</item>
+        <item quantity="many">%d manqués</item>
+        <item quantity="other">%d manqués</item>
+    </plurals>
+    <string name="ks_diff_stats_line">%1$s · %2$d s · %3$s</string>
+    <string name="ks_wrong_missed_line">%1$s · %2$s</string>
+</resources>

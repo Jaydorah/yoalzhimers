@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="stm_memorize_items_count">
+        <item quantity="one">Memoriza este objeto</item>
+        <item quantity="many">Memoriza estos %1$d objetos</item>
+        <item quantity="other">Memoriza estos %1$d objetos</item>
+    </plurals>
+    <plurals name="stm_tap_exactly_count">
+        <item quantity="one">Toca exactamente una vez</item>
+        <item quantity="many">Toca exactamente %1$d veces</item>
+        <item quantity="other">Toca exactamente %1$d veces</item>
+    </plurals>
+    <plurals name="stm_history_items">
+        <item quantity="one">%1$s • %2$d OBJETO</item>
+        <item quantity="many">%1$s • %2$d OBJETOS</item>
+        <item quantity="other">%1$s • %2$d OBJETOS</item>
+    </plurals>
+    <plurals name="stm_history_task_count">
+        <item quantity="one">%1$d TAREA</item>
+        <item quantity="many">%1$d TAREAS</item>
+        <item quantity="other">%1$d TAREAS</item>
+    </plurals>
+    <string name="stm_fail_too_soon">¡Demasiado ansioso! Tocaste antes de que apareciera el color.</string>
+</resources>

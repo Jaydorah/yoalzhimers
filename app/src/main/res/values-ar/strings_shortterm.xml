@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="stm_memorize_items_count">
+        <item quantity="zero">احفظ هذه العناصر الـ%1$d</item>
+        <item quantity="one">احفظ هذا العنصر</item>
+        <item quantity="two">احفظ هذين العنصرين</item>
+        <item quantity="few">احفظ هذه العناصر الـ%1$d</item>
+        <item quantity="many">احفظ هذه العناصر الـ%1$d</item>
+        <item quantity="other">احفظ هذه العناصر الـ%1$d</item>
+    </plurals>
+    <plurals name="stm_tap_exactly_count">
+        <item quantity="zero">انقر %1$d مرة بالضبط</item>
+        <item quantity="one">انقر مرة واحدة بالضبط</item>
+        <item quantity="two">انقر مرتين بالضبط</item>
+        <item quantity="few">انقر %1$d مرات بالضبط</item>
+        <item quantity="many">انقر %1$d مرة بالضبط</item>
+        <item quantity="other">انقر %1$d مرة بالضبط</item>
+    </plurals>
+    <plurals name="stm_history_items">
+        <item quantity="zero">%1$s • %2$d عنصر</item>
+        <item quantity="one">%1$s • عنصر واحد</item>
+        <item quantity="two">%1$s • عنصران</item>
+        <item quantity="few">%1$s • %2$d عناصر</item>
+        <item quantity="many">%1$s • %2$d عنصرًا</item>
+        <item quantity="other">%1$s • %2$d عنصر</item>
+    </plurals>
+    <plurals name="stm_history_task_count">
+        <item quantity="zero">%1$d مهمة</item>
+        <item quantity="one">مهمة واحدة</item>
+        <item quantity="two">مهمتان</item>
+        <item quantity="few">%1$d مهام</item>
+        <item quantity="many">%1$d مهمة</item>
+        <item quantity="other">%1$d مهمة</item>
+    </plurals>
+    <string name="stm_fail_too_soon">متحمس جدًا! نقرت قبل ظهور اللون.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wh_grid_label">%1$d×%1$d rooster</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="one">%1$d×%1$d, %2$d woord, net regs en af</item>
+        <item quantity="other">%1$d×%1$d, %2$d woorde, net regs en af</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="one">%1$d×%1$d, %2$d woord, diagonale ingesluit</item>
+        <item quantity="other">%1$d×%1$d, %2$d woorde, diagonale ingesluit</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="one">%1$d×%1$d, %2$d woord, woorde kan agteruit loop</item>
+        <item quantity="other">%1$d×%1$d, %2$d woorde, woorde kan agteruit loop</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="one">%1$d woord</item>
+        <item quantity="other">%1$d woorde</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="one">%1$d wenk gebruik</item>
+        <item quantity="other">%1$d wenke gebruik</item>
+    </plurals>
+    <plurals name="lo_moves_label">
+        <item quantity="one">beweging</item>
+        <item quantity="other">bewegings</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="one">+%1$d s boete (%2$d fout)</item>
+        <item quantity="other">+%1$d s boete (%2$d foute)</item>
+    </plurals>
+</resources>

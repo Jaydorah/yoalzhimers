@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pct_prompt">%1$d\u00A0%% de %2$d</string>
+    <plurals name="mm_desc_ops_count">
+        <item quantity="one">%1$d opération, %2$ds chacune</item>
+        <item quantity="many">%1$d opérations, %2$ds chacune</item>
+        <item quantity="other">%1$d opérations, %2$ds chacune</item>
+    </plurals>
+    <plurals name="pct_desc_seconds_count">
+        <item quantity="one">%1$d seconde par question</item>
+        <item quantity="many">%1$d secondes par question</item>
+        <item quantity="other">%1$d secondes par question</item>
+    </plurals>
+    <plurals name="nm_starting_digits_count">
+        <item quantity="one">Nombre de départ : %1$d chiffre</item>
+        <item quantity="many">Nombre de départ : %1$d chiffres</item>
+        <item quantity="other">Nombre de départ : %1$d chiffres</item>
+    </plurals>
+    <plurals name="nm_level_digits_count">
+        <item quantity="one">Niveau : %1$d chiffre</item>
+        <item quantity="many">Niveau : %1$d chiffres</item>
+        <item quantity="other">Niveau : %1$d chiffres</item>
+    </plurals>
+    <plurals name="nm_digits_count">
+        <item quantity="one">%1$d chiffre</item>
+        <item quantity="many">%1$d chiffres</item>
+        <item quantity="other">%1$d chiffres</item>
+    </plurals>
+</resources>

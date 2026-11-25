@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wh_grid_label">%1$d×%1$d grid</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="one">%1$d×%1$d, %2$d word, across and down only</item>
+        <item quantity="other">%1$d×%1$d, %2$d words, across and down only</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="one">%1$d×%1$d, %2$d word, diagonals included</item>
+        <item quantity="other">%1$d×%1$d, %2$d words, diagonals included</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="one">%1$d×%1$d, %2$d word, words can run backwards</item>
+        <item quantity="other">%1$d×%1$d, %2$d words, words can run backwards</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="one">%1$d word</item>
+        <item quantity="other">%1$d words</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="one">%1$d hint used</item>
+        <item quantity="other">%1$d hints used</item>
+    </plurals>
+    <plurals name="lo_moves_label">
+        <item quantity="one">move</item>
+        <item quantity="other">moves</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="one">+%1$ds penalty (%2$d wrong)</item>
+        <item quantity="other">+%1$ds penalty (%2$d wrong)</item>
+    </plurals>
+</resources>

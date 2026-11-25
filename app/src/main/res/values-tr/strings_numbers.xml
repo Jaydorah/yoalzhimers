@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pct_prompt">%2$d içinde %%%1$d</string>
+    <plurals name="mm_desc_ops_count">
+        <item quantity="one">%1$d işlem, her biri %2$ds</item>
+        <item quantity="other">%1$d işlem, her biri %2$ds</item>
+    </plurals>
+    <plurals name="pct_desc_seconds_count">
+        <item quantity="one">Soru başına %1$d saniye</item>
+        <item quantity="other">Soru başına %1$d saniye</item>
+    </plurals>
+    <plurals name="nm_starting_digits_count">
+        <item quantity="one">Başlangıç sayısı: %1$d rakam</item>
+        <item quantity="other">Başlangıç sayısı: %1$d rakam</item>
+    </plurals>
+    <plurals name="nm_level_digits_count">
+        <item quantity="one">Seviye: %1$d rakam</item>
+        <item quantity="other">Seviye: %1$d rakam</item>
+    </plurals>
+    <plurals name="nm_digits_count">
+        <item quantity="one">%1$d rakam</item>
+        <item quantity="other">%1$d rakam</item>
+    </plurals>
+</resources>

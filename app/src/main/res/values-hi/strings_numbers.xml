@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pct_prompt">%2$d का %1$d%%</string>
+    <plurals name="mm_desc_ops_count">
+        <item quantity="one">%1$d ऑपरेशन, हर एक में %2$ds</item>
+        <item quantity="other">%1$d ऑपरेशन, हर एक में %2$ds</item>
+    </plurals>
+    <plurals name="pct_desc_seconds_count">
+        <item quantity="one">हर प्रश्न के लिए %1$d सेकंड</item>
+        <item quantity="other">हर प्रश्न के लिए %1$d सेकंड</item>
+    </plurals>
+    <plurals name="nm_starting_digits_count">
+        <item quantity="one">शुरुआती संख्या: %1$d अंक</item>
+        <item quantity="other">शुरुआती संख्या: %1$d अंक</item>
+    </plurals>
+    <plurals name="nm_level_digits_count">
+        <item quantity="one">लेवल: %1$d अंक</item>
+        <item quantity="other">लेवल: %1$d अंक</item>
+    </plurals>
+    <plurals name="nm_digits_count">
+        <item quantity="one">%1$d अंक</item>
+        <item quantity="other">%1$d अंक</item>
+    </plurals>
+</resources>

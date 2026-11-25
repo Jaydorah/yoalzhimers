@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="wh_grid_label">%1$d×%1$d ग्रिड</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="one">%1$d×%1$d, %2$d शब्द, सिर्फ़ दाएँ और नीचे</item>
+        <item quantity="other">%1$d×%1$d, %2$d शब्द, सिर्फ़ दाएँ और नीचे</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="one">%1$d×%1$d, %2$d शब्द, तिरछे भी शामिल</item>
+        <item quantity="other">%1$d×%1$d, %2$d शब्द, तिरछे भी शामिल</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="one">%1$d×%1$d, %2$d शब्द, शब्द उल्टे भी हो सकते हैं</item>
+        <item quantity="other">%1$d×%1$d, %2$d शब्द, शब्द उल्टे भी हो सकते हैं</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="one">%1$d शब्द</item>
+        <item quantity="other">%1$d शब्द</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="one">%1$d संकेत इस्तेमाल</item>
+        <item quantity="other">%1$d संकेत इस्तेमाल</item>
+    </plurals>
+    <plurals tools:ignore="ImpliedQuantity" name="lo_moves_label">
+        <item quantity="one">चाल</item>
+        <item quantity="other">चालें</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="one">+%1$d से. पेनल्टी (%2$d गलती)</item>
+        <item quantity="other">+%1$d से. पेनल्टी (%2$d गलतियाँ)</item>
+    </plurals>
+</resources>

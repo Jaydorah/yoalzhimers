@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="stm_memorize_items_count">
+        <item quantity="one">Onthou hierdie item</item>
+        <item quantity="other">Onthou hierdie %1$d items</item>
+    </plurals>
+    <plurals name="stm_tap_exactly_count">
+        <item quantity="one">Tik presies een keer</item>
+        <item quantity="other">Tik presies %1$d keer</item>
+    </plurals>
+    <plurals name="stm_history_items">
+        <item quantity="one">%1$s • %2$d ITEM</item>
+        <item quantity="other">%1$s • %2$d ITEMS</item>
+    </plurals>
+    <plurals name="stm_history_task_count">
+        <item quantity="one">%1$d TAAK</item>
+        <item quantity="other">%1$d TAKE</item>
+    </plurals>
+    <string name="stm_fail_too_soon">Te gretig! Getik voordat die kleur verskyn het.</string>
+</resources>

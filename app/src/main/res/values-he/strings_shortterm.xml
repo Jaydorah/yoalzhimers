@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="stm_memorize_items_count">
+        <item quantity="one">שמרו את הפריט הזה</item>
+        <item quantity="two">שמרו את %1$d הפריטים האלה</item>
+        <item quantity="other">שמרו את %1$d הפריטים האלה</item>
+    </plurals>
+    <plurals name="stm_tap_exactly_count">
+        <item quantity="one">הקש פעם אחת בדיוק</item>
+        <item quantity="two">הקש פעמיים בדיוק</item>
+        <item quantity="other">הקש בדיוק %1$d פעמים</item>
+    </plurals>
+    <plurals name="stm_history_items">
+        <item quantity="one">%1$s • פריט אחד</item>
+        <item quantity="two">%1$s • %2$d פריטים</item>
+        <item quantity="other">%1$s • %2$d פריטים</item>
+    </plurals>
+    <plurals name="stm_history_task_count">
+        <item quantity="one">משימה אחת</item>
+        <item quantity="two">%1$d משימות</item>
+        <item quantity="other">%1$d משימות</item>
+    </plurals>
+    <string name="stm_fail_too_soon">נלהב מדי! לחצת לפני שהצבע הופיע.</string>
+</resources>

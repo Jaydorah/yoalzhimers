@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wh_grid_label">%1$d×%1$d Raster</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="one">%1$d×%1$d, %2$d Wort, nur nach rechts und nach unten</item>
+        <item quantity="other">%1$d×%1$d, %2$d Wörter, nur nach rechts und nach unten</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="one">%1$d×%1$d, %2$d Wort, auch diagonal</item>
+        <item quantity="other">%1$d×%1$d, %2$d Wörter, auch diagonal</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="one">%1$d×%1$d, %2$d Wort, Wörter können rückwärts laufen</item>
+        <item quantity="other">%1$d×%1$d, %2$d Wörter, Wörter können rückwärts laufen</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="one">%1$d Wort</item>
+        <item quantity="other">%1$d Wörter</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="one">%1$d Tipp genutzt</item>
+        <item quantity="other">%1$d Tipps genutzt</item>
+    </plurals>
+    <plurals name="lo_moves_label">
+        <item quantity="one">Zug</item>
+        <item quantity="other">Züge</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="one">+%1$d s Strafe (%2$d Fehler)</item>
+        <item quantity="other">+%1$d s Strafe (%2$d Fehler)</item>
+    </plurals>
+</resources>

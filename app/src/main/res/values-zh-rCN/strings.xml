@@ -1,0 +1,496 @@
+<resources>
+    <string name="app_name">yo alzhimers</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">主页</string>
+    <string name="nav_games">游戏</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_language">语言</string>
+    <string name="lang_follow_system">跟随系统</string>
+    <string name="theme_system">系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="settings_text_size">文字大小：%d%%</string>
+    <string name="settings_text_size_hint">缩放应用内的所有文字。</string>
+    <string name="settings_notifications">通知</string>
+    <string name="daily_reminder_title">每日提醒</string>
+    <string name="daily_reminder_subtitle">晚上 7 点提醒我，保持连续记录</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">每日提醒</string>
+    <string name="notif_channel_desc">提醒你保持每日连续记录</string>
+    <string name="notif_title">保持你的连续记录</string>
+    <string name="notif_body_streak">你已经坚持到第 %d 天。玩一局小游戏，继续保持。</string>
+    <string name="notif_body_start">玩一局小游戏，开启你的每日连续记录。</string>
+
+    <!-- Common -->
+    <string name="btn_start">开始</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_continue">继续</string>
+    <string name="btn_submit">提交</string>
+    <string name="btn_retry">再试一次</string>
+    <string name="btn_options">选项</string>
+    <string name="btn_quit">退出</string>
+    <string name="top_result">结果</string>
+    <string name="top_your_answer">你的答案</string>
+    <string name="content_desc_back">返回</string>
+    <string name="content_desc_delete">删除</string>
+
+    <!-- Home -->
+    <string name="home_tagline">每天玩点小游戏，保持大脑敏锐。</string>
+    <string name="home_day">第 %d 天</string>
+    <string name="home_play_today">今天开玩</string>
+    <string name="home_streak_active">每日连续记录，继续保持！</string>
+    <string name="home_streak_inactive">完成一局游戏即可开启连续记录。</string>
+    <string name="home_games_played">已玩局数</string>
+    <string name="home_days_active">活跃天数</string>
+    <string name="home_best_scores">你的最佳成绩</string>
+    <string name="home_avg_person">普通人平均：%1$s</string>
+    <string name="home_above_avg">高于平均</string>
+    <string name="home_keep_going">继续加油</string>
+
+    <!-- Game titles -->
+    <string name="game_mental_math">心算</string>
+    <string name="game_copycat">鹦鹉学舌</string>
+    <string name="game_word_hunt">找单词</string>
+    <string name="game_number_memory">数字记忆</string>
+    <string name="game_chimp">黑猩猩测试</string>
+    <string name="game_lights_out">熄灯</string>
+    <string name="game_color_match">颜色匹配</string>
+    <string name="game_kims_sack">金氏布袋</string>
+    <string name="game_memory_maze">记忆迷宫</string>
+    <string name="game_schulte">舒尔特表</string>
+
+    <!-- Score units -->
+    <plurals name="score_digits">
+        <item quantity="other">%d 位数</item>
+    </plurals>
+    <plurals name="score_rounds">
+        <item quantity="other">%d 局</item>
+    </plurals>
+    <plurals name="score_played">
+        <item quantity="other">已玩 %d 局</item>
+    </plurals>
+    <plurals name="score_cleared">
+        <item quantity="other">已通关 %d 局</item>
+    </plurals>
+    <plurals name="score_taps_best">
+        <item quantity="other">%d 次点击（最佳）</item>
+    </plurals>
+    <plurals name="score_items">
+        <item quantity="other">%d 项</item>
+    </plurals>
+    <string name="score_percent">%d%%</string>
+
+    <!-- Mental Math -->
+    <string name="mm_game_options">游戏选项</string>
+    <string name="mm_difficulty">难度</string>
+    <string name="mm_diff_easy">简单</string>
+    <string name="mm_diff_normal">普通</string>
+    <string name="mm_diff_hard">困难</string>
+    <string name="mm_diff_custom">自定义</string>
+    <string name="mm_selected">已选择</string>
+    <string name="mm_operations">运算步数</string>
+    <string name="mm_operations_count">运算步数：%1$d</string>
+    <string name="mm_seconds_per_step">每步秒数：%1$d</string>
+    <string name="mm_round_numbers">取整数字</string>
+    <string name="mm_round_numbers_sub">使用 5 的倍数，例如 45 × 2 而不是 47 × 2</string>
+    <string name="mm_allow_pause">允许暂停</string>
+    <string name="mm_allow_pause_sub">在回合中显示暂停按钮</string>
+    <string name="mm_pause">暂停</string>
+    <string name="mm_step">第 %1$d / %2$d 步</string>
+    <string name="mm_starting_number">起始数字</string>
+    <string name="mm_then">然后</string>
+    <string name="mm_memorize">记住这个</string>
+    <string name="mm_next_up">稍后出现下一个</string>
+    <string name="mm_get_ready">准备好接收答案</string>
+    <string name="mm_paused_tap">已暂停，点按继续</string>
+    <string name="mm_final_question">最终结果是多少？</string>
+    <string name="mm_correct">正确</string>
+    <string name="mm_not_quite">不完全对</string>
+    <string name="mm_you_answered">你的答案是 %1$s</string>
+    <string name="mm_the_chain">运算链</string>
+    <string name="mm_play_again">再玩一次</string>
+    <string name="mm_seconds">%1$ds</string>
+    <string name="mm_op_add">+</string>
+    <string name="mm_op_subtract">−</string>
+    <string name="mm_op_multiply">×</string>
+
+    <!-- Copycat -->
+    <string name="cc_how_to_play">观察图案，然后按顺序点按复现。</string>
+    <string name="cc_board_size">面板大小</string>
+    <string name="cc_mode">模式</string>
+    <string name="cc_mode_classic">经典</string>
+    <string name="cc_mode_fixed">固定长度</string>
+    <string name="cc_mode_classic_desc">序列每回合增加一个。</string>
+    <string name="cc_mode_fixed_desc">每回合图案长度相同。</string>
+    <string name="cc_pattern_length">图案长度：%1$d</string>
+    <string name="cc_difficulty">难度</string>
+    <string name="cc_diff_normal">普通</string>
+    <string name="cc_diff_hard">困难</string>
+    <string name="cc_flashes_faster">更快闪烁：亮 %1$d 毫秒，间隔 %2$d 毫秒。</string>
+    <string name="cc_flashes_steady">均匀闪烁：亮 %1$d 毫秒，间隔 %2$d 毫秒。</string>
+    <string name="cc_game_over">游戏结束</string>
+    <string name="cc_longest_pattern">最长图案：%1$d</string>
+    <string name="cc_play_again">再玩一次</string>
+
+    <!-- Word Hunt -->
+    <string name="wh_game_options">游戏选项</string>
+    <string name="wh_allow_pause">允许暂停</string>
+    <string name="wh_allow_pause_sub">在回合中显示暂停按钮</string>
+    <string name="wh_difficulty">难度</string>
+    <string name="wh_diff_easy">简单</string>
+    <string name="wh_diff_normal">普通</string>
+    <string name="wh_diff_hard">困难</string>
+    <string name="wh_selected">已选择</string>
+    <string name="wh_pause">暂停</string>
+    <string name="wh_hint">提示</string>
+    <string name="wh_give_up">放弃</string>
+    <string name="wh_paused">已暂停</string>
+    <string name="wh_resume">继续</string>
+    <string name="wh_quit_round">退出本回合</string>
+    <string name="wh_all_found">全部找到</string>
+    <string name="wh_words">单词</string>
+    <string name="wh_play_again">再玩一次</string>
+
+    <!-- Number Memory -->
+    <string name="nm_game_options">游戏选项</string>
+    <string name="nm_how_to_play">数字会短暂出现。记住它，然后输入。每回合增加一位数。</string>
+    <string name="nm_starting_sub">第一回合从几位数开始。会记住以备下次使用。</string>
+    <string name="nm_memorize">记住这个数字</string>
+    <string name="nm_next_type">接下来你要凭记忆输入它</string>
+    <string name="nm_question">刚才的数字是什么？</string>
+    <string name="nm_correct">正确</string>
+    <string name="nm_not_quite">不完全对</string>
+    <string name="nm_you_answered">你的答案</string>
+    <string name="nm_seconds">%1$ds</string>
+
+    <!-- Chimp -->
+    <string name="chimp_how_to_play">按顺序点按数字。第一次点按后数字会隐藏，你需要凭记忆完成。</string>
+    <string name="chimp_difficulty">难度</string>
+    <string name="chimp_diff_easy">简单</string>
+    <string name="chimp_diff_normal">普通</string>
+    <string name="chimp_diff_hard">困难</string>
+    <string name="chimp_desc_easy">无计时。数字会一直显示，直到你第一次点按。</string>
+    <string name="chimp_desc_normal">从 8 个数字起，隐藏前有 7 秒记忆时间。</string>
+    <string name="chimp_desc_hard">从 8 个数字起，7 秒记忆时间，每回合递减至 5 秒。</string>
+    <string name="chimp_selected">已选择</string>
+    <string name="chimp_starting_number">起始数量</string>
+    <string name="chimp_starting_sub">会记住以备下次使用。每通过一回合增加一个数字（最多 %1$d 个）。</string>
+    <string name="chimp_find">找到 %1$d</string>
+    <string name="chimp_memorize">记忆 %1$ds</string>
+    <string name="chimp_round_clear">回合通过</string>
+    <string name="chimp_game_over">游戏结束</string>
+    <string name="chimp_play_again">再玩一次</string>
+
+    <!-- Lights Out -->
+    <string name="lo_game_options">游戏选项</string>
+    <string name="lo_how_to_play">点按一支蜡烛会切换它和相邻蜡烛的状态。把它们全部熄灭。</string>
+    <string name="lo_difficulty">难度</string>
+    <string name="lo_diff_easy">简单</string>
+    <string name="lo_diff_normal">普通</string>
+    <string name="lo_diff_hard">困难</string>
+    <string name="lo_desc_easy">%1$d×%1$d 棋盘，轻度打乱</string>
+    <string name="lo_desc_normal">%1$d×%1$d 棋盘，亮着的蜡烛更多</string>
+    <string name="lo_desc_hard">%1$d×%1$d 棋盘，重度打乱</string>
+    <string name="lo_selected">已选择</string>
+    <string name="lo_pause">暂停</string>
+    <string name="lo_time">时间</string>
+    <string name="lo_moves">步数</string>
+    <string name="lo_lit">点亮</string>
+    <string name="lo_tap_hint">点按一支蜡烛：它和相邻的蜡烛会翻转状态。</string>
+    <string name="lo_paused">已暂停</string>
+    <string name="lo_resume">继续</string>
+    <string name="lo_quit_round">退出本回合</string>
+    <string name="lo_all_out">全部熄灭！</string>
+    <string name="lo_result_line">%1$s · %2$s · %3$d×%3$d</string>
+    <string name="lo_play_again">再玩一次</string>
+
+    <!-- Color Match -->
+    <string name="cm_game_options">游戏选项</string>
+    <string name="cm_how_to_play">用红、绿、蓝滑块调出目标颜色，然后看看你调得多接近。</string>
+    <string name="cm_hide_color">隐藏我的颜色</string>
+    <string name="cm_hide_color_sub">调整滑块时遮住你的选择，检查时才会显示。</string>
+    <string name="cm_last_session">上次成绩</string>
+    <string name="cm_last_session_stats">平均 %1$d%% · 最佳 %2$d%%</string>
+    <string name="cm_match_prompt">尽量精确地匹配目标颜色。</string>
+    <string name="cm_target">目标</string>
+    <string name="cm_your_color">你的颜色</string>
+    <string name="cm_red">红</string>
+    <string name="cm_green">绿</string>
+    <string name="cm_blue">蓝</string>
+    <string name="cm_check">检查</string>
+    <string name="cm_hidden">隐藏</string>
+    <string name="cm_how_close">你调得有多接近</string>
+    <string name="cm_avg_best">平均 %1$d%% · 最佳 %2$d%%</string>
+    <string name="cm_channel_diff">各通道差值</string>
+    <string name="cm_score_nailed">完美命中</string>
+    <string name="cm_score_very_close">非常接近</string>
+    <string name="cm_score_close">接近</string>
+    <string name="cm_score_not_bad">还不错</string>
+    <string name="cm_score_way_off">差得远</string>
+    <string name="cm_score_not_close">不接近</string>
+    <string name="cm_play_again">再玩一次</string>
+
+    <!-- Kim's Sack -->
+    <string name="ks_game_options">游戏选项</string>
+    <string name="ks_how_to_play">物品摆在桌上。记住它们，然后口袋会把它们扫走。只把原物拖回去。两侧还有从未出现在桌上的仿品。</string>
+    <string name="ks_difficulty">难度</string>
+    <string name="ks_difficulty_sub">物品更多、时间更短，干扰物也更多。</string>
+    <string name="ks_diff_easy">简单</string>
+    <string name="ks_diff_normal">普通</string>
+    <string name="ks_diff_hard">困难</string>
+    <string name="ks_precise_location">精确位置</string>
+    <string name="ks_precise_sub">每件物品必须放回原格。关闭时，放入任意正确格子即可。两侧始终包含仿品。</string>
+    <string name="ks_selected">已选择</string>
+    <string name="ks_memorize">记住桌上的每件物品</string>
+    <string name="ks_hide_now">立即隐藏</string>
+    <string name="ks_seconds">%1$ds</string>
+    <string name="ks_collecting">口袋正在把它们收走……</string>
+    <string name="ks_get_ready">准备：原物会回到桌上，还有仿品</string>
+    <string name="ks_your_recall">你的回忆</string>
+    <string name="ks_precise_prompt">把每件原物放回它最初的确切格子</string>
+    <string name="ks_drag_prompt">把原物拖到桌上，忽略仿品</string>
+    <string name="ks_tap_filled">点按已占用的格子可将其送回。</string>
+    <string name="ks_all_placed">全部放好后即可提交。</string>
+    <string name="ks_result_ready">就绪</string>
+    <string name="ks_result_perfect">完美记忆</string>
+    <string name="ks_result_sharp">记忆敏锐</string>
+    <string name="ks_result_not_bad">还不错</string>
+    <string name="ks_result_shaky">不太稳</string>
+    <string name="ks_result_lost">口袋跑了</string>
+    <string name="ks_items_remembered">记住的物品</string>
+    <string name="ks_back_in_place">已回到原位</string>
+    <string name="ks_purse_held">口袋收走</string>
+    <string name="ks_wrong_slot">格子错误</string>
+    <string name="ks_extra">额外（不在口袋里）</string>
+    <string name="ks_play_again">再玩一次</string>
+
+    <!-- Schulte -->
+    <string name="sch_how_to_play">尽快按顺序找到并点按数字。每点错一次加 1 秒。</string>
+    <string name="sch_board">棋盘</string>
+    <string name="sch_grid">网格</string>
+    <string name="sch_rounds">回合数</string>
+    <string name="sch_groups">分组</string>
+    <string name="sch_toggle_inverse">倒序计数</string>
+    <string name="sch_toggle_divergent">发散计数</string>
+    <string name="sch_toggle_various">多种计数</string>
+    <string name="sch_toggle_collate">整理分组</string>
+    <string name="sch_toggle_round_breaks">回合间歇</string>
+    <string name="sch_toggle_show_round">显示回合编号</string>
+    <string name="sch_toggle_colored">彩色分组</string>
+    <string name="sch_play">开始</string>
+    <string name="sch_toggle_empty_correct">清空正确格</string>
+    <string name="sch_toggle_show_correct">显示正确格</string>
+    <string name="sch_toggle_tap_result">显示点按结果</string>
+    <string name="sch_toggle_no_errors">无错误</string>
+    <string name="sch_toggle_start_timer">点按后开始计时</string>
+    <string name="sch_toggle_shuffle">点按后重新排列</string>
+    <string name="sch_toggle_center_dot">中心点</string>
+    <string name="sch_visual">视觉</string>
+    <string name="sch_toggle_turn">数字翻转</string>
+    <string name="sch_toggle_spin_numbers">数字旋转</string>
+    <string name="sch_toggle_spin_table">表格旋转</string>
+    <string name="sch_spin_speed">旋转速度</string>
+    <string name="sch_spin_off">关闭</string>
+    <string name="sch_spin_low">低</string>
+    <string name="sch_spin_medium">中</string>
+    <string name="sch_spin_high">高</string>
+    <string name="sch_spin_ccw_low">逆时针 低</string>
+    <string name="sch_spin_ccw_medium">逆时针 中</string>
+    <string name="sch_spin_ccw_high">逆时针 高</string>
+    <string name="sch_toggle_original_colors">原始颜色</string>
+    <string name="sch_modes">模式</string>
+    <string name="sch_toggle_frenzy">狂热模式</string>
+    <string name="sch_visible_count">可见数量</string>
+    <string name="sch_toggle_hide_react">隐藏数字（React）</string>
+    <string name="sch_toggle_blind">盲打模式</string>
+    <string name="sch_toggle_math">数学模式</string>
+    <string name="sch_toggle_letters">字母模式</string>
+    <string name="sch_round_done">第 %1$d 回合完成</string>
+    <string name="sch_time_so_far">累计用时 %1$s</string>
+    <string name="sch_next_round">下一回合</string>
+    <string name="sch_time">用时 %1$s</string>
+    <string name="sch_new_best">新纪录</string>
+    <string name="sch_best">最佳 %1$s</string>
+    <string name="sch_play_again">再玩一次</string>
+
+    <!-- Memory Maze (shortterm) -->
+    <string name="stm_history">历史</string>
+    <string name="stm_mnemonic_test">记忆力测试</string>
+    <string name="stm_tagline">抗干扰的神经测试</string>
+    <string name="stm_distractions">干扰</string>
+    <string name="stm_distractions_desc">在等待期间穿插认知任务</string>
+    <string name="stm_items_to_remember">记忆项目</string>
+    <string name="stm_memorize_duration">记忆时长</string>
+    <string name="stm_distraction_mode">干扰模式</string>
+    <string name="stm_task_based">按任务</string>
+    <string name="stm_time_based">按时间</string>
+    <string name="stm_difficulty">难度</string>
+    <string name="stm_diff_easy">简单</string>
+    <string name="stm_diff_medium">中等</string>
+    <string name="stm_diff_hard">困难</string>
+    <string name="stm_diff_super">超级</string>
+    <string name="stm_diff_ultra">极限</string>
+    <string name="stm_diff_impossible">不可能</string>
+    <string name="stm_total_duration">总时长</string>
+    <string name="stm_zen_wait_duration">禅定等待时长</string>
+    <string name="stm_time_per_task">每项任务时间</string>
+    <string name="stm_vocabulary">词库</string>
+    <string name="stm_vocab_famous">名人</string>
+    <string name="stm_vocab_random">随机</string>
+    <string name="stm_vocab_numbers">数字</string>
+    <string name="stm_vocab_letters">字母</string>
+    <string name="stm_vocab_pokemon">Pokemon</string>
+    <string name="stm_vocab_sprites">精灵</string>
+    <string name="stm_start_test">开始测试</string>
+    <string name="stm_duration_secs">%1$.1fs</string>
+    <string name="stm_secs_short">%1$ds</string>
+    <string name="stm_history_title">历史</string>
+    <string name="stm_history_empty">还没有成绩。证明你的大脑存在吧。</string>
+    <string name="stm_history_time">%1$ds 时间</string>
+    <string name="stm_back_to_menu">返回菜单</string>
+    <string name="stm_clear_all">全部清除</string>
+    <string name="stm_loading">正在初始化神经缓存……</string>
+    <string name="stm_memorize">记忆</string>
+    <string name="stm_stack_item_title">堆叠项目 #%1$d</string>
+    <string name="stm_stack_item">堆叠项目 #%1$d</string>
+    <string name="stm_phase_memorize">阶段 1：记忆</string>
+    <string name="stm_memorize_sprites">记住这些精灵</string>
+    <string name="stm_locked_in_bang">已锁定！</string>
+    <string name="stm_got_it">我记住了！</string>
+    <string name="stm_vanishing">%1$.1fs 后消失</string>
+    <string name="stm_hud_task">任务</string>
+    <string name="stm_hud_time">时间</string>
+    <string name="stm_time_left">剩余 %1$ds</string>
+    <string name="stm_zen_wait">禅定等待</string>
+    <string name="stm_zen_breathe">呼吸。守住画面。</string>
+    <string name="stm_recall">回忆</string>
+    <string name="stm_recall_title">回忆</string>
+    <string name="stm_recall_sprites">为每个格子选择你看到的物体</string>
+    <string name="stm_recall_pokemon">为每个格子选择你看到的 Pokemon</string>
+    <string name="stm_recall_enter">按顺序输入这些物品</string>
+    <string name="stm_sprite_selection">精灵选择</string>
+    <string name="stm_pokedex_selection">POKEDEX 选择</string>
+    <string name="stm_locked_in">已锁定</string>
+    <string name="stm_scan_complete">扫描完成</string>
+    <string name="stm_correct_items">正确项目</string>
+    <string name="stm_failed">失败</string>
+    <string name="stm_test_aborted">测试中止</string>
+    <string name="stm_verdict_legend">绝对传奇！</string>
+    <string name="stm_verdict_great">干得漂亮！</string>
+    <string name="stm_verdict_overflow">神经过载。</string>
+
+    <!-- Memory Maze: distraction tasks -->
+    <string name="stm_mission_objective">任务目标</string>
+    <string name="stm_reaction_green">仅当方块变绿时点击</string>
+    <string name="stm_reaction_blue">仅当方块变蓝时点击</string>
+    <string name="stm_now">就是现在！</string>
+    <string name="stm_steady">稳住……</string>
+    <string name="stm_find_sum">找出总和</string>
+    <string name="stm_find_difference">找出差值</string>
+    <string name="stm_identify_font">辨认字体颜色</string>
+    <string name="stm_identify_word">辨认写出的单词</string>
+    <string name="stm_color_red">红色</string>
+    <string name="stm_color_blue">蓝色</string>
+    <string name="stm_color_green">绿色</string>
+    <string name="stm_tap_any_vowel">点按任意元音</string>
+    <string name="stm_tap_any_consonant">点按任意辅音</string>
+    <string name="stm_select_largest">选择最大的数字</string>
+    <string name="stm_select_smallest">选择最小的数字</string>
+    <string name="stm_find_and_tap">找到并点按：%1$s</string>
+    <string name="stm_click_any_upper">点击任意大写字母</string>
+    <string name="stm_click_any_lower">点击任意小写字母</string>
+    <string name="stm_solve_for_x">解出 X</string>
+    <string name="stm_locate_shape">找到 %1$s</string>
+    <string name="stm_shape_circle">圆形</string>
+    <string name="stm_shape_square">方形</string>
+    <string name="stm_shape_triangle">三角形</string>
+    <string name="stm_arrow_same">点击与箭头相同的方向</string>
+    <string name="stm_arrow_opposite">点击与箭头相反的方向</string>
+    <string name="stm_left">左</string>
+    <string name="stm_right">右</string>
+    <string name="stm_complete_sequence">补全序列</string>
+    <string name="stm_swatch_red">红色</string>
+    <string name="stm_swatch_blue">蓝色</string>
+    <string name="stm_tap_swatch">点按 %1$s 色块</string>
+    <string name="stm_double_click">快速双击！</string>
+    <string name="stm_triple_click">快速三连击！</string>
+    <string name="stm_tap_count">点按 %1$d/%2$d</string>
+    <string name="stm_press_left">按下左键</string>
+    <string name="stm_press_right">按下右键</string>
+    <string name="stm_pick_even">选出唯一的偶数</string>
+    <string name="stm_pick_odd">选出唯一的奇数</string>
+    <string name="stm_corner_top_left">左上</string>
+    <string name="stm_corner_top_right">右上</string>
+    <string name="stm_corner_bottom_left">左下</string>
+    <string name="stm_corner_bottom_right">右下</string>
+    <string name="stm_drag_to">把方块拖到 %1$s</string>
+    <string name="stm_compare_greater">%1$d 大于 %2$d 吗？</string>
+    <string name="stm_compare_lesser">%1$d 小于 %2$d 吗？</string>
+    <string name="stm_yes">是</string>
+    <string name="stm_no">否</string>
+    <string name="stm_find_any_fruit">找到任意水果</string>
+    <string name="stm_find_any_animal">找到任意动物</string>
+    <string name="stm_missing_digit">找出缺少的数字</string>
+    <string name="stm_tap_biggest">点按最大的圆</string>
+    <string name="stm_tap_smallest">点按最小的圆</string>
+    <string name="stm_tap_medium">点按中等的圆</string>
+    <string name="stm_tap_in_order">按顺序点按：%1$s</string>
+
+    <!-- Memory Maze: fail reasons -->
+    <string name="stm_fail_wrong_answer">答错了！</string>
+    <string name="stm_fail_stroop">认知干扰打败了你！</string>
+    <string name="stm_fail_not_vowel">那不是元音！</string>
+    <string name="stm_fail_not_consonant">那不是辅音！</string>
+    <string name="stm_fail_extreme">选错了极端值！</string>
+    <string name="stm_fail_target">选错了目标！</string>
+    <string name="stm_fail_letter_case">字母大小写不对！</string>
+    <string name="stm_fail_shape">形状不对！</string>
+    <string name="stm_fail_direction">方向搞反了！</string>
+    <string name="stm_fail_swatch">色块不对！</string>
+    <string name="stm_fail_button">按错了按钮！</string>
+    <string name="stm_fail_not_even">那不是偶数！</string>
+    <string name="stm_fail_not_odd">那不是奇数！</string>
+    <string name="stm_fail_compare">比较出错！</string>
+    <string name="stm_fail_not_fruit">那不是水果！</string>
+    <string name="stm_fail_not_animal">那不是动物！</string>
+    <string name="stm_fail_missing_digit">缺少的数字找错了！</string>
+    <string name="stm_fail_circle">圆的大小不对！</string>
+    <string name="stm_fail_order">顺序错了！</string>
+    <string name="stm_fail_timeout">时间到，太慢啦！</string>
+    <string name="stm_fail_default">检测到大脑宕机！</string>
+
+    <!-- Percentages -->
+    <string name="game_percentages">百分比</string>
+    <string name="pct_game_options">游戏选项</string>
+    <string name="pct_difficulty">难度</string>
+    <string name="pct_diff_easy">简单</string>
+    <string name="pct_diff_normal">普通</string>
+    <string name="pct_diff_hard">困难</string>
+    <string name="pct_diff_custom">自定义</string>
+    <string name="pct_desc_easy">不限时</string>
+    <string name="pct_desc_custom">自行设置时间</string>
+    <string name="pct_selected">已选择</string>
+    <string name="pct_seconds_per_question">每题秒数：%1$d</string>
+    <string name="pct_number_range">数字范围</string>
+    <string name="pct_step">步长</string>
+    <string name="pct_min_number">最小数字</string>
+    <string name="pct_max_number">最大数字</string>
+    <string name="pct_round_numbers">整数取整</string>
+    <string name="pct_round_numbers_sub">使用 5 的倍数，例如用 40 代替 37</string>
+    <string name="pct_question">第 %1$d / %2$d 题</string>
+    <string name="pct_seconds">%1$ds</string>
+    <string name="pct_correct">正确</string>
+    <string name="pct_not_quite">不完全对</string>
+    <string name="pct_time_up">时间到</string>
+    <string name="pct_you_answered">你的答案：%1$s</string>
+    <string name="pct_score_out_of">答对 %1$d / %2$d</string>
+    <string name="pct_result_streak">最佳连对：%1$d</string>
+    <string name="pct_play_again">再玩一次</string>
+</resources>

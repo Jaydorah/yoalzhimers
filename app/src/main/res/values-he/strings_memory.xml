@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chimp_numbers_count">
+        <item quantity="one">מספר אחד</item>
+        <item quantity="two">שני מספרים</item>
+        <item quantity="other">%d מספרים</item>
+    </plurals>
+    <plurals name="chimp_cleared_count">
+        <item quantity="one">%d עבר</item>
+        <item quantity="two">%d עברו</item>
+        <item quantity="other">%d עברו</item>
+    </plurals>
+    <plurals name="chimp_next_numbers_count">
+        <item quantity="one">הבא: מספר אחד</item>
+        <item quantity="two">הבא: שני מספרים</item>
+        <item quantity="other">הבא: %d מספרים</item>
+    </plurals>
+    <plurals name="chimp_rounds_cleared_label">
+        <item quantity="one">סיבוב עבר</item>
+        <item quantity="two">סיבובים עברו</item>
+        <item quantity="other">סיבובים עברו</item>
+    </plurals>
+    <plurals name="cc_pads_count">
+        <item quantity="one">משטח אחד</item>
+        <item quantity="two">שני משטחים</item>
+        <item quantity="other">%d משטחים</item>
+    </plurals>
+    <plurals name="cc_cleared_count">
+        <item quantity="one">%d עבר</item>
+        <item quantity="two">%d עברו</item>
+        <item quantity="other">%d עברו</item>
+    </plurals>
+    <plurals name="cc_rounds_cleared_label">
+        <item quantity="one">סיבוב עבר</item>
+        <item quantity="two">סיבובים עברו</item>
+        <item quantity="other">סיבובים עברו</item>
+    </plurals>
+    <plurals name="ks_decoys_count">
+        <item quantity="one">+%d פיתיון</item>
+        <item quantity="two">+%d פיתיונות</item>
+        <item quantity="other">+%d פיתיונות</item>
+    </plurals>
+    <plurals name="ks_wrong_count">
+        <item quantity="one">%d שגוי</item>
+        <item quantity="two">%d שגויים</item>
+        <item quantity="other">%d שגויים</item>
+    </plurals>
+    <plurals name="ks_missed_count">
+        <item quantity="one">%d פוספס</item>
+        <item quantity="two">%d פוספסו</item>
+        <item quantity="other">%d פוספסו</item>
+    </plurals>
+    <string name="ks_diff_stats_line">%1$s · %2$ds · %3$s</string>
+    <string name="ks_wrong_missed_line">%1$s · %2$s</string>
+</resources>

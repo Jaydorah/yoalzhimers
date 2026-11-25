@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <plurals name="chimp_numbers_count">
+        <item quantity="one">%d अंक</item>
+        <item quantity="other">%d अंक</item>
+    </plurals>
+    <plurals name="chimp_cleared_count">
+        <item quantity="one">%d पास</item>
+        <item quantity="other">%d पास</item>
+    </plurals>
+    <plurals name="chimp_next_numbers_count">
+        <item quantity="one">अगला: %d अंक</item>
+        <item quantity="other">अगला: %d अंक</item>
+    </plurals>
+    <plurals tools:ignore="ImpliedQuantity" name="chimp_rounds_cleared_label">
+        <item quantity="one">राउंड पास</item>
+        <item quantity="other">राउंड पास</item>
+    </plurals>
+    <plurals name="cc_pads_count">
+        <item quantity="one">%d पैड</item>
+        <item quantity="other">%d पैड</item>
+    </plurals>
+    <plurals name="cc_cleared_count">
+        <item quantity="one">%d पास</item>
+        <item quantity="other">%d पास</item>
+    </plurals>
+    <plurals tools:ignore="ImpliedQuantity" name="cc_rounds_cleared_label">
+        <item quantity="one">राउंड पास</item>
+        <item quantity="other">राउंड पास</item>
+    </plurals>
+    <plurals name="ks_decoys_count">
+        <item quantity="one">+%d नक़ली</item>
+        <item quantity="other">+%d नक़ली</item>
+    </plurals>
+    <plurals name="ks_wrong_count">
+        <item quantity="one">%d गलत</item>
+        <item quantity="other">%d गलत</item>
+    </plurals>
+    <plurals name="ks_missed_count">
+        <item quantity="one">%d छूटा</item>
+        <item quantity="other">%d छूटे</item>
+    </plurals>
+    <string name="ks_diff_stats_line">%1$s · %2$d से. · %3$s</string>
+    <string name="ks_wrong_missed_line">%1$s · %2$s</string>
+</resources>

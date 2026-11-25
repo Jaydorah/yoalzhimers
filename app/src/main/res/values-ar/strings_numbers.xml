@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pct_prompt">%1$d%% من %2$d</string>
+    <plurals name="mm_desc_ops_count">
+        <item quantity="zero">%1$d عملية، %2$ds لكل واحدة</item>
+        <item quantity="one">عملية واحدة، %2$ds</item>
+        <item quantity="two">عمليتان، %2$ds لكل واحدة</item>
+        <item quantity="few">%1$d عمليات، %2$ds لكل واحدة</item>
+        <item quantity="many">%1$d عملية، %2$ds لكل واحدة</item>
+        <item quantity="other">%1$d عملية، %2$ds لكل واحدة</item>
+    </plurals>
+    <plurals name="pct_desc_seconds_count">
+        <item quantity="zero">%1$d ثانية لكل سؤال</item>
+        <item quantity="one">ثانية واحدة لكل سؤال</item>
+        <item quantity="two">ثانيتان لكل سؤال</item>
+        <item quantity="few">%1$d ثوانٍ لكل سؤال</item>
+        <item quantity="many">%1$d ثانية لكل سؤال</item>
+        <item quantity="other">%1$d ثانية لكل سؤال</item>
+    </plurals>
+    <plurals name="nm_starting_digits_count">
+        <item quantity="zero">الرقم الابتدائي: %1$d رقم</item>
+        <item quantity="one">الرقم الابتدائي: رقم واحد</item>
+        <item quantity="two">الرقم الابتدائي: رقمان</item>
+        <item quantity="few">الرقم الابتدائي: %1$d أرقام</item>
+        <item quantity="many">الرقم الابتدائي: %1$d رقمًا</item>
+        <item quantity="other">الرقم الابتدائي: %1$d رقم</item>
+    </plurals>
+    <plurals name="nm_level_digits_count">
+        <item quantity="zero">المستوى: %1$d رقم</item>
+        <item quantity="one">المستوى: رقم واحد</item>
+        <item quantity="two">المستوى: رقمان</item>
+        <item quantity="few">المستوى: %1$d أرقام</item>
+        <item quantity="many">المستوى: %1$d رقمًا</item>
+        <item quantity="other">المستوى: %1$d رقم</item>
+    </plurals>
+    <plurals name="nm_digits_count">
+        <item quantity="zero">%1$d رقم</item>
+        <item quantity="one">رقم واحد</item>
+        <item quantity="two">رقمان</item>
+        <item quantity="few">%1$d أرقام</item>
+        <item quantity="many">%1$d رقمًا</item>
+        <item quantity="other">%1$d رقم</item>
+    </plurals>
+</resources>

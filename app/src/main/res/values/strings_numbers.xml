@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pct_prompt">%1$d%% out of %2$d</string>
+    <plurals name="mm_desc_ops_count">
+        <item quantity="one">%1$d operation, %2$ds each</item>
+        <item quantity="other">%1$d operations, %2$ds each</item>
+    </plurals>
+    <plurals name="pct_desc_seconds_count">
+        <item quantity="one">%1$d second per question</item>
+        <item quantity="other">%1$d seconds per question</item>
+    </plurals>
+    <plurals name="nm_starting_digits_count">
+        <item quantity="one">Starting number: %1$d digit</item>
+        <item quantity="other">Starting number: %1$d digits</item>
+    </plurals>
+    <plurals name="nm_level_digits_count">
+        <item quantity="one">Level: %1$d digit</item>
+        <item quantity="other">Level: %1$d digits</item>
+    </plurals>
+    <plurals name="nm_digits_count">
+        <item quantity="one">%1$d digit</item>
+        <item quantity="other">%1$d digits</item>
+    </plurals>
+</resources>

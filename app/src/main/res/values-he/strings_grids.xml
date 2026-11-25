@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wh_grid_label">רשת %1$d×%1$d</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="one">%1$d×%1$d, מילה אחת, לרוחב ולמטה בלבד</item>
+        <item quantity="two">%1$d×%1$d, %2$d מילים, לרוחב ולמטה בלבד</item>
+        <item quantity="other">%1$d×%1$d, %2$d מילים, לרוחב ולמטה בלבד</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="one">%1$d×%1$d, מילה אחת, כולל אלכסונים</item>
+        <item quantity="two">%1$d×%1$d, %2$d מילים, כולל אלכסונים</item>
+        <item quantity="other">%1$d×%1$d, %2$d מילים, כולל אלכסונים</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="one">%1$d×%1$d, מילה אחת, מילים יכולות להיות הפוכות</item>
+        <item quantity="two">%1$d×%1$d, %2$d מילים, מילים יכולות להיות הפוכות</item>
+        <item quantity="other">%1$d×%1$d, %2$d מילים, מילים יכולות להיות הפוכות</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="one">מילה אחת</item>
+        <item quantity="two">%1$d מילים</item>
+        <item quantity="other">%1$d מילים</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="one">רמז אחד בשימוש</item>
+        <item quantity="two">%1$d רמזים בשימוש</item>
+        <item quantity="other">%1$d רמזים בשימוש</item>
+    </plurals>
+    <plurals name="lo_moves_label">
+        <item quantity="one">מהלך</item>
+        <item quantity="two">מהלכים</item>
+        <item quantity="other">מהלכים</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="one">קנס של %1$d שנ׳ (טעות אחת)</item>
+        <item quantity="two">קנס של %1$d שנ׳ (%2$d טעויות)</item>
+        <item quantity="other">קנס של %1$d שנ׳ (%2$d טעויות)</item>
+    </plurals>
+</resources>

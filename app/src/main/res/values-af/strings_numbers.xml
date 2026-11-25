@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pct_prompt">%1$d%% van %2$d</string>
+    <plurals name="mm_desc_ops_count">
+        <item quantity="one">%1$d bewerking, %2$ds elk</item>
+        <item quantity="other">%1$d bewerkings, %2$ds elk</item>
+    </plurals>
+    <plurals name="pct_desc_seconds_count">
+        <item quantity="one">%1$d sekonde per vraag</item>
+        <item quantity="other">%1$d sekondes per vraag</item>
+    </plurals>
+    <plurals name="nm_starting_digits_count">
+        <item quantity="one">Aanvangsgetal: %1$d syfer</item>
+        <item quantity="other">Aanvangsgetal: %1$d syfers</item>
+    </plurals>
+    <plurals name="nm_level_digits_count">
+        <item quantity="one">Vlak: %1$d syfer</item>
+        <item quantity="other">Vlak: %1$d syfers</item>
+    </plurals>
+    <plurals name="nm_digits_count">
+        <item quantity="one">%1$d syfer</item>
+        <item quantity="other">%1$d syfers</item>
+    </plurals>
+</resources>

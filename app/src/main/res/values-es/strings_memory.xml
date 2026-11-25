@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chimp_numbers_count">
+        <item quantity="one">%d número</item>
+        <item quantity="many">%d números</item>
+        <item quantity="other">%d números</item>
+    </plurals>
+    <plurals name="chimp_cleared_count">
+        <item quantity="one">%d superada</item>
+        <item quantity="many">%d superadas</item>
+        <item quantity="other">%d superadas</item>
+    </plurals>
+    <plurals name="chimp_next_numbers_count">
+        <item quantity="one">Siguiente: %d número</item>
+        <item quantity="many">Siguiente: %d números</item>
+        <item quantity="other">Siguiente: %d números</item>
+    </plurals>
+    <plurals name="chimp_rounds_cleared_label">
+        <item quantity="one">ronda superada</item>
+        <item quantity="many">rondas superadas</item>
+        <item quantity="other">rondas superadas</item>
+    </plurals>
+    <plurals name="cc_pads_count">
+        <item quantity="one">%d casilla</item>
+        <item quantity="many">%d casillas</item>
+        <item quantity="other">%d casillas</item>
+    </plurals>
+    <plurals name="cc_cleared_count">
+        <item quantity="one">%d superada</item>
+        <item quantity="many">%d superadas</item>
+        <item quantity="other">%d superadas</item>
+    </plurals>
+    <plurals name="cc_rounds_cleared_label">
+        <item quantity="one">ronda superada</item>
+        <item quantity="many">rondas superadas</item>
+        <item quantity="other">rondas superadas</item>
+    </plurals>
+    <plurals name="ks_decoys_count">
+        <item quantity="one">+%d señuelo</item>
+        <item quantity="many">+%d señuelos</item>
+        <item quantity="other">+%d señuelos</item>
+    </plurals>
+    <plurals name="ks_wrong_count">
+        <item quantity="one">%d incorrecto</item>
+        <item quantity="many">%d incorrectos</item>
+        <item quantity="other">%d incorrectos</item>
+    </plurals>
+    <plurals name="ks_missed_count">
+        <item quantity="one">%d perdido</item>
+        <item quantity="many">%d perdidos</item>
+        <item quantity="other">%d perdidos</item>
+    </plurals>
+    <string name="ks_diff_stats_line">%1$s · %2$ds · %3$s</string>
+    <string name="ks_wrong_missed_line">%1$s · %2$s</string>
+</resources>

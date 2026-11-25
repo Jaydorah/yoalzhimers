@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chimp_numbers_count">
+        <item quantity="zero">%d رقم</item>
+        <item quantity="one">رقم واحد</item>
+        <item quantity="two">رقمان</item>
+        <item quantity="few">%d أرقام</item>
+        <item quantity="many">%d رقمًا</item>
+        <item quantity="other">%d رقم</item>
+    </plurals>
+    <plurals name="chimp_cleared_count">
+        <item quantity="zero">%d جولة مجتازة</item>
+        <item quantity="one">جولة مجتازة</item>
+        <item quantity="two">جولتان مجتازتان</item>
+        <item quantity="few">%d جولات مجتازة</item>
+        <item quantity="many">%d جولة مجتازة</item>
+        <item quantity="other">%d جولة مجتازة</item>
+    </plurals>
+    <plurals name="chimp_next_numbers_count">
+        <item quantity="zero">التالي: %d رقم</item>
+        <item quantity="one">التالي: رقم واحد</item>
+        <item quantity="two">التالي: رقمان</item>
+        <item quantity="few">التالي: %d أرقام</item>
+        <item quantity="many">التالي: %d رقمًا</item>
+        <item quantity="other">التالي: %d رقم</item>
+    </plurals>
+    <plurals name="chimp_rounds_cleared_label">
+        <item quantity="zero">جولة مجتازة</item>
+        <item quantity="one">جولة مجتازة</item>
+        <item quantity="two">جولتان مجتازتان</item>
+        <item quantity="few">جولات مجتازة</item>
+        <item quantity="many">جولة مجتازة</item>
+        <item quantity="other">جولة مجتازة</item>
+    </plurals>
+    <plurals name="cc_pads_count">
+        <item quantity="zero">%d مربع</item>
+        <item quantity="one">مربع واحد</item>
+        <item quantity="two">مربعان</item>
+        <item quantity="few">%d مربعات</item>
+        <item quantity="many">%d مربعًا</item>
+        <item quantity="other">%d مربع</item>
+    </plurals>
+    <plurals name="cc_cleared_count">
+        <item quantity="zero">%d جولة مجتازة</item>
+        <item quantity="one">جولة مجتازة</item>
+        <item quantity="two">جولتان مجتازتان</item>
+        <item quantity="few">%d جولات مجتازة</item>
+        <item quantity="many">%d جولة مجتازة</item>
+        <item quantity="other">%d جولة مجتازة</item>
+    </plurals>
+    <plurals name="cc_rounds_cleared_label">
+        <item quantity="zero">جولة مجتازة</item>
+        <item quantity="one">جولة مجتازة</item>
+        <item quantity="two">جولتان مجتازتان</item>
+        <item quantity="few">جولات مجتازة</item>
+        <item quantity="many">جولة مجتازة</item>
+        <item quantity="other">جولة مجتازة</item>
+    </plurals>
+    <plurals name="ks_decoys_count">
+        <item quantity="zero">+%d مموّه</item>
+        <item quantity="one">+مموّه واحد</item>
+        <item quantity="two">+مموّهان</item>
+        <item quantity="few">+%d مموّهات</item>
+        <item quantity="many">+%d مموّهًا</item>
+        <item quantity="other">+%d مموّه</item>
+    </plurals>
+    <plurals name="ks_wrong_count">
+        <item quantity="zero">%d خطأ</item>
+        <item quantity="one">خطأ واحد</item>
+        <item quantity="two">خطآن</item>
+        <item quantity="few">%d أخطاء</item>
+        <item quantity="many">%d خطأً</item>
+        <item quantity="other">%d خطأ</item>
+    </plurals>
+    <plurals name="ks_missed_count">
+        <item quantity="zero">%d مفقود</item>
+        <item quantity="one">%d مفقود</item>
+        <item quantity="two">%d مفقودان</item>
+        <item quantity="few">%d مفقودة</item>
+        <item quantity="many">%d مفقودًا</item>
+        <item quantity="other">%d مفقود</item>
+    </plurals>
+    <string name="ks_diff_stats_line">%1$s · %2$ds · %3$s</string>
+    <string name="ks_wrong_missed_line">%1$s · %2$s</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chimp_numbers_count">
+        <item quantity="one">%d Zahl</item>
+        <item quantity="other">%d Zahlen</item>
+    </plurals>
+    <plurals name="chimp_cleared_count">
+        <item quantity="one">%d geschafft</item>
+        <item quantity="other">%d geschafft</item>
+    </plurals>
+    <plurals name="chimp_next_numbers_count">
+        <item quantity="one">Nächstes: %d Zahl</item>
+        <item quantity="other">Nächstes: %d Zahlen</item>
+    </plurals>
+    <plurals name="chimp_rounds_cleared_label">
+        <item quantity="one">Runde geschafft</item>
+        <item quantity="other">Runden geschafft</item>
+    </plurals>
+    <plurals name="cc_pads_count">
+        <item quantity="one">%d Feld</item>
+        <item quantity="other">%d Felder</item>
+    </plurals>
+    <plurals name="cc_cleared_count">
+        <item quantity="one">%d geschafft</item>
+        <item quantity="other">%d geschafft</item>
+    </plurals>
+    <plurals name="cc_rounds_cleared_label">
+        <item quantity="one">Runde geschafft</item>
+        <item quantity="other">Runden geschafft</item>
+    </plurals>
+    <plurals name="ks_decoys_count">
+        <item quantity="one">+%d Köder</item>
+        <item quantity="other">+%d Köder</item>
+    </plurals>
+    <plurals name="ks_wrong_count">
+        <item quantity="one">%d falsch</item>
+        <item quantity="other">%d falsch</item>
+    </plurals>
+    <plurals name="ks_missed_count">
+        <item quantity="one">%d verpasst</item>
+        <item quantity="other">%d verpasst</item>
+    </plurals>
+    <string name="ks_diff_stats_line">%1$s · %2$ds · %3$s</string>
+    <string name="ks_wrong_missed_line">%1$s · %2$s</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="wh_grid_label">grille %1$d×%1$d</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="one">%1$d×%1$d, %2$d mot, seulement vers la droite et le bas</item>
+        <item quantity="many">%1$d×%1$d, %2$d mots, seulement vers la droite et le bas</item>
+        <item quantity="other">%1$d×%1$d, %2$d mots, seulement vers la droite et le bas</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="one">%1$d×%1$d, %2$d mot, diagonales incluses</item>
+        <item quantity="many">%1$d×%1$d, %2$d mots, diagonales incluses</item>
+        <item quantity="other">%1$d×%1$d, %2$d mots, diagonales incluses</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="one">%1$d×%1$d, %2$d mot, les mots peuvent aller à l\'envers</item>
+        <item quantity="many">%1$d×%1$d, %2$d mots, les mots peuvent aller à l\'envers</item>
+        <item quantity="other">%1$d×%1$d, %2$d mots, les mots peuvent aller à l\'envers</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="one">%1$d mot</item>
+        <item quantity="many">%1$d mots</item>
+        <item quantity="other">%1$d mots</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="one">%1$d indice utilisé</item>
+        <item quantity="many">%1$d indices utilisés</item>
+        <item quantity="other">%1$d indices utilisés</item>
+    </plurals>
+    <plurals tools:ignore="ImpliedQuantity" name="lo_moves_label">
+        <item quantity="one">coup</item>
+        <item quantity="many">coups</item>
+        <item quantity="other">coups</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="one">+%1$d s de pénalité (%2$d faute)</item>
+        <item quantity="many">+%1$d s de pénalité (%2$d fautes)</item>
+        <item quantity="other">+%1$d s de pénalité (%2$d fautes)</item>
+    </plurals>
+</resources>

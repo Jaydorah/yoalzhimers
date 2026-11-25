@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="stm_memorize_items_count">
+        <item quantity="one">Merken Sie sich dieses Objekt</item>
+        <item quantity="other">Merken Sie sich diese %1$d Objekte</item>
+    </plurals>
+    <plurals name="stm_tap_exactly_count">
+        <item quantity="one">Tippen Sie genau einmal</item>
+        <item quantity="other">Tippen Sie genau %1$d Mal</item>
+    </plurals>
+    <plurals name="stm_history_items">
+        <item quantity="one">%1$s • %2$d OBJEKT</item>
+        <item quantity="other">%1$s • %2$d OBJEKTE</item>
+    </plurals>
+    <plurals name="stm_history_task_count">
+        <item quantity="one">%1$d AUFGABE</item>
+        <item quantity="other">%1$d AUFGABEN</item>
+    </plurals>
+    <string name="stm_fail_too_soon">Zu vorschnell! Getippt, bevor die Farbe erschien.</string>
+</resources>

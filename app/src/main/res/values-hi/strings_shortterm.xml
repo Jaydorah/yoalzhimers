@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="stm_memorize_items_count">
+        <item quantity="one">इस %1$d चीज़ को याद करें</item>
+        <item quantity="other">इन %1$d चीज़ों को याद करें</item>
+    </plurals>
+    <plurals name="stm_tap_exactly_count">
+        <item quantity="one">ठीक %1$d बार टैप करें</item>
+        <item quantity="other">ठीक %1$d बार टैप करें</item>
+    </plurals>
+    <plurals name="stm_history_items">
+        <item quantity="one">%1$s • %2$d आइटम</item>
+        <item quantity="other">%1$s • %2$d आइटम</item>
+    </plurals>
+    <plurals name="stm_history_task_count">
+        <item quantity="one">%1$d टास्क</item>
+        <item quantity="other">%1$d टास्क</item>
+    </plurals>
+    <string name="stm_fail_too_soon">बहुत जल्दी! रंग दिखने से पहले टैप कर दिया।</string>
+</resources>

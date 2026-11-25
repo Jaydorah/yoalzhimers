@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wh_grid_label">شبكة %1$d×%1$d</string>
+    <string name="wh_result_line">%1$s · %2$s · %3$s</string>
+    <plurals name="wh_desc_easy_n">
+        <item quantity="zero">%1$d×%1$d، %2$d كلمة، أفقيًا ولأسفل فقط</item>
+        <item quantity="one">%1$d×%1$d، كلمة واحدة، أفقيًا ولأسفل فقط</item>
+        <item quantity="two">%1$d×%1$d، كلمتان، أفقيًا ولأسفل فقط</item>
+        <item quantity="few">%1$d×%1$d، %2$d كلمات، أفقيًا ولأسفل فقط</item>
+        <item quantity="many">%1$d×%1$d، %2$d كلمة، أفقيًا ولأسفل فقط</item>
+        <item quantity="other">%1$d×%1$d، %2$d كلمة، أفقيًا ولأسفل فقط</item>
+    </plurals>
+    <plurals name="wh_desc_normal_n">
+        <item quantity="zero">%1$d×%1$d، %2$d كلمة، تشمل الأقطار</item>
+        <item quantity="one">%1$d×%1$d، كلمة واحدة، تشمل الأقطار</item>
+        <item quantity="two">%1$d×%1$d، كلمتان، تشمل الأقطار</item>
+        <item quantity="few">%1$d×%1$d، %2$d كلمات، تشمل الأقطار</item>
+        <item quantity="many">%1$d×%1$d، %2$d كلمة، تشمل الأقطار</item>
+        <item quantity="other">%1$d×%1$d، %2$d كلمة، تشمل الأقطار</item>
+    </plurals>
+    <plurals name="wh_desc_hard_n">
+        <item quantity="zero">%1$d×%1$d، %2$d كلمة، قد تُكتب الكلمات بالعكس</item>
+        <item quantity="one">%1$d×%1$d، كلمة واحدة، قد تُكتب الكلمات بالعكس</item>
+        <item quantity="two">%1$d×%1$d، كلمتان، قد تُكتب الكلمات بالعكس</item>
+        <item quantity="few">%1$d×%1$d، %2$d كلمات، قد تُكتب الكلمات بالعكس</item>
+        <item quantity="many">%1$d×%1$d، %2$d كلمة، قد تُكتب الكلمات بالعكس</item>
+        <item quantity="other">%1$d×%1$d، %2$d كلمة، قد تُكتب الكلمات بالعكس</item>
+    </plurals>
+    <plurals name="wh_word_count">
+        <item quantity="zero">%1$d كلمة</item>
+        <item quantity="one">كلمة واحدة</item>
+        <item quantity="two">كلمتان</item>
+        <item quantity="few">%1$d كلمات</item>
+        <item quantity="many">%1$d كلمة</item>
+        <item quantity="other">%1$d كلمة</item>
+    </plurals>
+    <plurals name="wh_hints_used">
+        <item quantity="zero">بلا تلميحات</item>
+        <item quantity="one">تلميح واحد مستخدم</item>
+        <item quantity="two">تلميحان مستخدمان</item>
+        <item quantity="few">%1$d تلميحات مستخدمة</item>
+        <item quantity="many">%1$d تلميحًا مستخدمًا</item>
+        <item quantity="other">%1$d تلميح مستخدم</item>
+    </plurals>
+    <plurals name="lo_moves_label">
+        <item quantity="zero">نقلة</item>
+        <item quantity="one">نقلة</item>
+        <item quantity="two">نقلتان</item>
+        <item quantity="few">نقلات</item>
+        <item quantity="many">نقلة</item>
+        <item quantity="other">نقلة</item>
+    </plurals>
+    <plurals name="sch_penalty_n">
+        <item quantity="zero">غرامة %1$d ث (بلا أخطاء)</item>
+        <item quantity="one">غرامة %1$d ث (خطأ واحد)</item>
+        <item quantity="two">غرامة %1$d ث (خطآن)</item>
+        <item quantity="few">غرامة %1$d ث (%2$d أخطاء)</item>
+        <item quantity="many">غرامة %1$d ث (%2$d خطأً)</item>
+        <item quantity="other">غرامة %1$d ث (%2$d خطأ)</item>
+    </plurals>
+</resources>
